@@ -1,0 +1,137 @@
+
+@font-face {
+    font-family: Assistant;
+    src: url(Assistant-VariableFont_wght.ttf);}
+
+
+header{
+    display: flex;
+    box-shadow: 10px 5px 5px grey;
+    background-color: black;
+}
+
+
+.escolha{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.escolha label {
+    padding: 20px;
+    padding-bottom: 4px;
+    font-size: 23px;
+    width: 200px;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    font-family: "Assistant";
+}
+
+#data {
+    margin-top: 15px;
+    width: 180px;
+    height: 30px;
+    font-family: "Assistant";
+    font-size: 18px;
+    color: rgba(187, 27, 27, 0.548);
+}
+
+.escolha button {
+    margin-top: 10px;
+    width: 70px;
+    height:30px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: white;
+    box-shadow: 0.5px 1px 2px 1px gray;
+    font-family: 'Courier New';
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.678);
+    font-weight: bold;
+	cursor: pointer;
+}
+
+
+.escolha button:hover {
+    background-color: rgba(128, 128, 128, 0.123);
+    color:rgba(95, 6, 6, 0.514);
+    transition: ease-in-out, 1s;
+}
+
+
+#star{
+    width: 150px;
+    height: 150px;
+}
+
+#imagem {
+    padding: 10px;
+    margin: auto;  
+    overflow: visible;
+    object-fit: contain;
+}
+
+iframe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+p { 
+    text-align: center;
+}
+
+#titulo {
+    font-size: 30px;
+    font-family: "Assistant";
+    font-weight: bold;
+    cursor: context-menu;
+}
+
+#titulo:hover {
+
+    border-bottom: solid, black;
+}
+
+#texto {
+    padding-top: 20px;
+    text-shadow: lightgray;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-family: "Assistant";
+    font-variant: small-caps;
+    font-size: 22px;
+    cursor:context-menu;
+    box-sizing: content-box;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    position: relative;
+    bottom: 0;
+    margin-top: 30px;
+    padding: 20px 10px;
+    box-shadow: 10px 5px 5px grey;
+  }
+
+  small {
+    color: cornsilk;
+  }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="apodstyle.css">
+    <link rel="shortcut icon" href="planet.png">
+    <script src="apodlogica.js" defer></script>
+
+    <title>Look at the Stars...</title>
+</head>
+<body>
+    <header>
+        <img id="star" src="logo.png">
+    </header>
+     
+    <div class="escolha"> 
+         <label>Selecione a Data:</label>
+        <input type="date" id="data" required>
+        <button id="enviar"> OK </button>
+    </div>
+ 
+<div class="container">
+    <div class="fotos">
+        <picture id="imagem" >
+            <source srcset="myimage.webp" type="image/webp">
+        </picture>
+    
+        <iframe id="video"></iframe>
+    </div>
+
+    <div class="descrição">  
+        <p id="titulo"> </p>
+    
+        <p id="texto"> </p>
+    </div>    
+</div>    
+
+<footer>
+    <small>&copy; Copyright 2021, Página desenvolvida para fins acadêmicos</small> 
+</footer>
+</body>
+
+</html>
