@@ -17,6 +17,20 @@ let pedido = new XMLHttpRequest ()
         document.getElementById("titulo").innerHTML= resposta.title
         document.getElementById("texto").innerHTML= resposta.explanation
      console.log (resposta)
+     
+     if (resposta.media_type != "video"){
+        img.setAttribute("src", resposta.url)
+        img.style.display= "flex"
+        vdo.style.display= "none"
+        console.log (resposta)
+    }
+    else {
+        video.setAttribute("src",resposta.url)
+        img.style.display = "none"
+        vdo.style.display = "flex"
+        console.log (resposta)
+    }
+
     } 
 
     pedido.send ()
